@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python package metadata
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Private environment configuration
+.env
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+/trip_plan.json
+
+# Local instructor answers
+/answers/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
