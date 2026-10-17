@@ -219,3 +219,4 @@ Focus on the task functions identified in each notebook. Unless instructed other
 | Codespace cannot resume | Check compute and storage allowance. Wait for renewal or continue with a local setup. |
 
 **Submission:** Save, commit, and push the notebooks, source changes, and explanations required by your instructor. Never submit API keys, real payment details, or virtual environments. Clear unnecessary notebook outputs before sharing, particularly outputs that might contain credentials or personal information.
+<!-- Merge test: lecturer README update -->
