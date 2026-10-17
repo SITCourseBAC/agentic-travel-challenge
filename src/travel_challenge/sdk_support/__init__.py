@@ -1,0 +1,1 @@
+"""Instructor SDK infrastructure; student exercises stay in the weekly modules."""

@@ -1,0 +1,31 @@
+[project]
+name = "agentic-travel-challenge"
+version = "0.1.0"
+description = "Student starter for the Agentic Travel Challenge"
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2.8,<3",
+  "httpx>=0.27,<1",
+  "python-dotenv>=1,<2",
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.30,<1",
+  "pytest==9.0.2",
+]
+
+[project.optional-dependencies]
+protocols = [
+  "a2a-sdk[http-server]==1.2.2",
+  "mcp==2.3.0",
+  "x402[evm]==2.25.0",
+  "eth-account==0.14.0",
+  "jwcrypto==1.5.6",
+  "ap2 @ git+https://github.com/google-agentic-commerce/AP2.git@b4587ac1d055888a73b4b21750973cffba961793",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = [
+  "scaffold: instructor-provided REST, SDK and execution infrastructure",
+  "student: unfinished student acceptance checks for Weeks 1-4",
+]
